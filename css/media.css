@@ -1,0 +1,524 @@
+
+/*extra lagre*/
+@media(max-width:1199px){
+   .jerry img {
+    width: 450px;
+    margin-right: 10px;
+    height: 45vh;
+}
+.jerry:hover .color{
+    width: 450px;
+} 
+}
+/*lagre*/
+@media(max-width:991px){
+   .banner-in img{
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.banner-in h2 {
+    font-size: 38px;
+}
+.cat {
+    position: absolute;
+    
+    left: 0;
+}
+h5 {
+    color: #fff;
+    font-size: 32px;
+    transform: translate(25%, 20%);
+}
+p {
+    color: #fff;
+    font-size: 17px;
+    transform: translate(10%, 0%);
+}
+h6 {
+    color: #fff;
+    font-size: 17px;
+    margin: auto;
+    transform: translate(30%, -10%);
+}
+.box{
+    position: relative;
+    width: 59vh;
+    height: 35vh;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.box:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 0px 0px rgba(0,0,0,.5);
+}
+.box .cat0-img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+.box .cat0-img:before{
+content: '';
+position: absolute;
+top: 0;
+left: 0;
+width: 85%;
+height: 90%;
+z-index: 1;
+background: linear-gradient(180deg,#f00,#000);
+mix-blend-mode: multiply;
+opacity: 0;
+transition: 0.5s;
+
+    }
+.box:hover .cat0-img:before{
+opacity: 1;
+
+    }
+.box .cat0-img img{
+position: absolute;
+top: 0;
+left: 0;
+width: 85%;
+height: 85%;
+object-fit: cover;
+}
+.box .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+    z-index: 2;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+
+}
+.box .content h1{
+color: #fff;
+transition: 0.5s;
+text-transform: uppercase;
+margin: auto;
+font-size: 16px;
+transform: translateY(200px);
+    }
+    .box:hover .content h1{
+     transform: translateY(0);
+     transition-delay: 0.1s;
+    }
+    .jerry img {
+    width: 340px;
+    margin-right: 10px;
+    height: 38vh;
+}
+.jerry:hover .color{
+    width: 340px;
+} 
+.jerry {
+    position: relative;
+    width: 200px;
+    height: 220px;
+}
+ h4 {
+    font-size: 1.2rem;
+}
+
+
+}
+/*medium*/
+@media(max-width:767px){
+    .logo {
+    display: inline-block;
+    background: #1a54e7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    position: relative;
+    
+}
+.logo:before {
+    content: "";
+    position: absolute;
+    background: #1a54e7;
+    top: 0;
+    bottom: 0;
+    /* left: -50000px; */
+    
+    /* left: -20px; */
+
+}
+.menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px;
+    color: #1a54e7;
+}
+.banner-in img {
+    max-width: 20%;
+    display: block;
+    margin: auto;
+}
+.banner-in h2 {
+    font-size: 27px;
+}
+.bx-wrapper{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+
+    }
+    .feature img {
+    display: block;
+    width: 100%;
+    height: 28vh;
+}
+h4 {
+    font-size: 1.25rem;
+}
+.date-author-common a:last-child {
+    color: #1a54e7;
+    padding-left: 15px;
+    font-size: 15px;
+}
+.date-author-common a:first-child {
+    border-right: 2px solid #b0b0b0;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.cat {
+    position: absolute;
+    left: 0;
+    /* margin-top: 50px; */
+    transform: translate(0px, 10px);
+}
+h5 {
+    color: #fff;
+    font-size: 22px;
+    transform: translate(25%,100%);
+    
+}
+p {
+    color: #fff;
+    font-size: 15px;
+    transform: translate(20px, 30px);
+}
+h6 {
+    color: #fff;
+    font-size: 15px;
+    margin: auto;
+    transform: translate(30%, 80%);
+}
+.box {
+    position: relative;
+    width: 45vh;
+    height: 35vh;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.jerry img {
+    width: 250px;
+    margin-right: 10px;
+    height: 35vh;
+}
+.jerry:hover .color{
+    width: 250px;
+}
+.catp-img img {
+    display: block;
+    width: 100%;
+    height: 45vh;
+}
+.cats-img:before {
+background-size: 100%;
+
+}
+.cats8-img:before {
+background-size: 100%;
+}
+}
+/*end import*/
+/*small*/
+@media(max-width:575px){
+.menu {
+    float: left;
+}
+.container {
+    width:auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}	
+.box .cat0-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+}
+.box .cat0-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95%;
+    height: 95%;
+    z-index: 1;
+    background: linear-gradient(180deg,#f00,#000);
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+}
+.jerry img {
+    width: 250px;
+    margin-right: 10px;
+    height: 35vh;
+}
+.jerry:hover .color{
+    width: 250px;
+}
+.sub-in input[type="text"] {
+    display: inline-block;
+    height: 48px;
+    width: 200px;
+    border-radius: 30px;
+    border: 0;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 50px;
+    background: #2c6cff;
+    color: #fff;
+    margin-right: 60px;
+    /* margin: auto; */
+}
+.submit input {
+    height: 47px;
+    padding: 0 30px;
+    border-radius: 30px;
+    border: 0;
+    background: #fff;
+    font-size: 18px;
+    color: #1a54e7;
+    margin-right: 100px;
+}
+.catp-img img {
+    display: block;
+    width: 100%;
+    height: 45vh;
+}
+
+}
+@media screen and (max-width:515px){
+
+
+}
+
+    }
+
+@media screen and (max-width:490px){
+
+.banner-in h2 {
+    font-size: 25px;
+}
+
+
+        }
+
+
+@media screen and (max-width:480px){
+.banner-in h2 {
+    font-size: 24px;
+}
+
+        }
+ @media screen and (max-width:427px){
+    .menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 5px;
+    color: #1a54e7;
+}
+.banner-in h2 {
+    font-size: 23px;
+}
+
+                }
+@media screen and (max-width:410px){
+
+.banner-in h2 {
+    font-size: 22px;
+}
+        }
+
+@media screen and (max-width:395px){
+.banner-in h2 {
+    font-size: 21px;
+}
+.cats-img:before {
+background-size: 130%;
+
+}
+.cats8-img:before {
+background-size: 130%;
+}
+        
+
+        }
+@media screen and (max-width:379px){
+    .banner-in h2 {
+    font-size: 20px;
+}
+.menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 3px;
+    color: #1a54e7;
+}
+}
+@media screen and (max-width:363px){
+
+.banner-in h2 {
+    font-size: 19px;
+}
+
+    }
+@media screen and (max-width:354px){
+    
+.menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 1px;
+    color: #1a54e7;
+}
+.date-author {
+    position: absolute;
+    bottom: 20px;
+    right: 50;
+}
+}
+
+
+    @media screen and (max-width:349px){
+    .banner-in h2 {
+    font-size: 18px;
+}
+.menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 1px;
+    color: #1a54e7;
+}
+}
+@media screen and (max-width:329px){
+    .banner-in h2 {
+    font-size: 17px;
+}
+.menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 15px;
+    color: #1a54e7;
+}
+}
+    @media screen and (max-width:320px){
+
+.menu ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 15px;
+    color: #1a54e7;
+}
+
+.banner-in img {
+    max-width: 30%;
+    display: block;
+    margin: auto;
+}
+.banner-in h2 {
+    font-size: 17px;
+}
+.cats a {
+    display: inline-block;
+    padding: 10px;
+    background: #1a54e7;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+h4 {
+    font-size: 1rem;
+}
+h5 {
+    color: #fff;
+    font-size: 22px;
+    transform: translate(15%,10%);
+}
+p {
+    color: #fff;
+    font-size: 15px;
+    transform: translate(20px, 0px);
+}
+h6 {
+    color: #fff;
+    font-size: 15px;
+    margin: auto;
+    transform: translate(10%, -30%);
+}
+.box .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    z-index: 2;
+    display: flex;
+    padding: 20px;
+    align-items: flex-end;
+}
+.box .cat0-img:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 96%;
+    height: 96%;
+    z-index: 1;
+    background: linear-gradient(180deg,#f00,#000);
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+}
+.box .cat0-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 96%;
+    height: 96%;
+    object-fit: cover;
+}
+.jerry:hover .color{
+    width: 250px;
+    height: 35vh;
+}
+.container {
+    width:auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cats-img:before {
+background-size: 150%;
+
+}
+.cats8-img:before {
+background-size: 150%;
+}
+}
